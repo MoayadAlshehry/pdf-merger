@@ -13,14 +13,14 @@ CLI PDF utility for merging multiple PDF files and extracting page ranges.
 
 ## Installation
 1. Clone the repository:
-   ```bash
+```bash
    git clone https://github.com/MoayadAlshehry/pdf-merger.git
    cd pdf-merger
-   ```
+```
 2. Install dependencies:
-   ```bash
+```bash
    pip install -r requirements.txt
-   ```
+```
 
 ## Usage
 Run the application:
