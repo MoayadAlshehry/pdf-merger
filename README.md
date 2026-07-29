@@ -9,17 +9,17 @@ CLI PDF utility for merging multiple PDF files and extracting page ranges.
 
 ## Technologies
 - Python 3.x
-- PyPDF2
+- `PyPDF2`
 
 ## Installation
 1. Clone the repository:
 ```bash
-   git clone https://github.com/MoayadAlshehry/pdf-merger.git
-   cd pdf-merger
+git clone https://github.com/MoayadAlshehry/pdf-merger.git
+cd pdf-merger
 ```
 2. Install dependencies:
 ```bash
-   pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
