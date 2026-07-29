@@ -1,36 +1,43 @@
-# pdf-merger
+# PDF Merger CLI
 
-A fast and simple CLI tool for merging multiple PDF files into one. 
+## Description
+CLI PDF utility for merging multiple PDF files and extracting page ranges.
 
 ## Features
-- Merge multiple PDF files into a single output
-- Specify output filename
-- Reorder pages
-- Extract specific page ranges from PDFs
-- Simple drag-and-drop style usage (pass files as arguments)
-
-## Installation
-```b```bash
-pip install -r requirements.txt
-```
-
-## Usage
-Merge all pages of `file1.pdf` and `file2.pdf` into `merged.pdf` (default):
-```b```bash
-python main.py file1.pdf file2.pdf
-```
-
-Specify an output file:
-```b```bash
-python main.py -o output.pdf file1.pdf file2.pdf
-```
-
-Extract specific page ranges:
-```b```bash
-python main.py file1.pdf:1-3,5 file2.pdf
-```
-*(The above command takes pages 1, 2, 3, and 5 from file1.pdf and all pages from file2.pdf)*
+- Merge multiple PDFs
+- Selective page range extraction
 
 ## Technologies
-- Python
+- Python 3.x
 - PyPDF2
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/MoayadAlshehry/pdf-merger.git
+   cd pdf-merger
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Usage
+Run the application:
+```bash
+python main.py file1.pdf file2.pdf -o out.pdf
+```
+
+## Project Structure
+- `main.py`: Source module/asset.
+- `requirements.txt`: Source module/asset.
+- `LICENSE`: MIT License.
+
+## Requirements
+- Python 3.9+
+
+## Future Improvements
+- Maintenance and enhancement updates.
+
+## License
+This project is licensed under the MIT License.
